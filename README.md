@@ -1,6 +1,6 @@
 # Stock Price Forecasting
 
-Code for [**ResNLS: An Improved Model for Stock Price Forecasting**](https://arxiv.org/abs/2312.01020v2), accepted at Computational Intelligence 2023.
+Code for [ResNLS: An Improved Model for Stock Price Forecasting](https://arxiv.org/abs/2312.01020v2), accepted at Computational Intelligence 2023.
 
 ![ResNLS Architecture](image/resnls.png)
 
