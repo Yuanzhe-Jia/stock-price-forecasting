@@ -6,7 +6,8 @@ Code for [ResNLS: An Improved Model for Stock Price Forecasting](https://arxiv.o
 
 ## Model
 
-Despite the wide adoption of machine learning and deep learning in stock price prediction, few approaches explicitly account for the varying degrees of dependency between adjacent stock prices. ResNLS addresses this by combining **ResNet** and **LSTM** into a hybrid architecture:
+Despite the wide adoption of machine learning and deep learning in stock price prediction, few approaches explicitly account for the varying degrees of dependency between adjacent stock prices. 
+ResNLS addresses this by combining **ResNet** and **LSTM** into a hybrid architecture:
 
 - **ResNet** acts as a feature extractor to capture dependencies between stock prices across time windows.
 - **LSTM** analyzes the raw time-series data jointly with these dependency features (treated as residuals).
