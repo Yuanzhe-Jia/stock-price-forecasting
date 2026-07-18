@@ -4,11 +4,7 @@ Stock prices forecasting has always been a challenging task.
 Although many research projects try to address the problem, few of them pay attention to the varying degrees of dependencies between stock prices. 
 We introduce a hybrid model that improves the prediction of stock prices by emphasizing the dependencies between adjacent stock prices. 
 The proposed model, ResNLS, is mainly composed of two neural architectures, ResNet and LSTM. 
-ResNet serves as a feature extractor to identify dependencies between stock prices, while LSTM analyzes the initial time series data with the combination of dependencies, which are considered as residuals. 
-Our experiment reveals that when the closing price data for the previous 5 consecutive trading days is used as input, the performance of the model (ResNLS-5) is optimal compared to those with other inputs. 
-Furthermore, ResNLS-5 demonstrates at least a 20% improvement over current state-of-the-art baselines. 
-To verify whether ResNLS-5 can help clients effectively avoid risks and earn profits in the stock market, we construct a quantitative trading framework for back testing. 
-The result shows that the trading strategy based on ResNLS-5 predictions can successfully mitigate losses during declining stock prices and generate profits in periods of rising stock prices. 
+ResNet serves as a feature extractor to identify dependencies between stock prices, while LSTM analyzes the initial time series data with the combination of dependencies, which are considered as residuals.  
 
 ![ResNLS Architecture](image/resnls.png)
 
